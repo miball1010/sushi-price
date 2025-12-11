@@ -11,9 +11,9 @@ interface Plate {
 }
 
 const plates = ref<Plate[]>([
-  { id: 1, name: '粉色盤', price: 40, count: 0, color: 'text-[#F2AEA4]' },
-  { id: 2, name: '灰色盤', price: 60, count: 0, color: 'text-[#C3C4D2]' },
-  { id: 3, name: '黑色盤', price: 80, count: 0, color: 'text-[#4A4646]' },
+  { id: 1, name: '粉色盤', price: 30, count: 0, color: 'text-[#F2AEA4]' },
+  { id: 2, name: '灰色盤', price: 40, count: 0, color: 'text-[#C3C4D2]' },
+  { id: 3, name: '黑色盤', price: 60, count: 0, color: 'text-[#4A4646]' },
   { id: 4, name: '其他', price: 1, count: 0, custom: true },
 ])
 
