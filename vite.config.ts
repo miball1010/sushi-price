@@ -7,9 +7,8 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig(({ command}) => {
-  const isDev = command === 'serve';
   return{
-    base: isDev ? '/' : './',
+    base: '/sushi-price/',
     plugins: [
       vue(),
       vueDevTools(),
